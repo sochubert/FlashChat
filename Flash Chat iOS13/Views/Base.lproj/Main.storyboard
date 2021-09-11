@@ -179,7 +179,7 @@
         <scene sceneID="Hzg-jR-yiY">
             <objects>
                 <viewController storyboardIdentifier="LoginToChat" id="5v2-hE-4Ub" customClass="LoginViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NR3-PA-yDz">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="LoginToChat" id="NR3-PA-yDz">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -371,8 +371,11 @@
             <point key="canvasLocation" x="-86.153846153846146" y="134.36018957345971"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="y7D-jv-BlJ"/>
+    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="sBK-ah-qCG"/>
+        <segue reference="gN4-qr-6Ks"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
